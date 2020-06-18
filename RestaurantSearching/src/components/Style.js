@@ -30,6 +30,33 @@ const styles={
             borderRadius:15,
             marginVertical:15
         }
+    }),
+    restaurantListItem:StyleSheet.create({
+        cardItem:{
+            width:Dimensions.get("window").width * 0.8,
+            height:Dimensions.get("window").height / 2.9,
+            borderColor:"#8FACBC",
+            borderWidth:8,
+            alignSelf:"center",
+            borderRadius:10,
+            marginVertical:10
+        },
+        itemImg:{
+            width:Dimensions.get("window").width * 0.75,
+            height:Dimensions.get("window").height / 4,
+            alignSelf:"center"
+        },
+        itemInfo:{
+            backgroundColor:"#8FACBC",
+        },
+        itemLocate:{
+            flexDirection:"row",
+            marginTop:5
+        },
+        itemTitle:{
+            fontSize:18,
+            fontWeight:"bold"
+        }
     })
 }
 export default styles
